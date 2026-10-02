@@ -4,13 +4,13 @@
 >
 > 一款治愈系 2D 水族箱经营游戏：照顾鱼群、平衡小型生态，并搭配魔法伙伴构筑自己的鱼缸。
 
-[**Download the latest Windows playtest / 下载最新 Windows 试玩版（75.0 MB）**](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261001-uiux2.zip)
+[**Download the latest Windows playtest / 下载最新 Windows 试玩版（75.0 MB）**](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-performance.zip)
 
-Current playtest: **2026-10-01 · Chapter 1 · Revised UI · Windows x64 · Simplified Chinese**
+Current playtest: **2026-10-02 · Chapter 1 · Performance and input fixes · Windows x64 · Simplified Chinese**
 
-当前试玩：**2026-10-01 · 第一章 · 新版 UI · Windows 64 位 · 简体中文**
+当前试玩：**2026-10-02 · 第一章 · 性能与输入修复 · Windows 64 位 · 简体中文**
 
-[Release page / 发布页与历史版本](https://github.com/Er2u/Aquarium-Days/releases/tag/v0.1.0-demo) · [SHA-256 checksum / 校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261001-uiux2.zip.sha256)
+[Release page / 发布页与历史版本](https://github.com/Er2u/Aquarium-Days/releases/tag/v0.1.0-demo) · [SHA-256 checksum / 校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-performance.zip.sha256)
 
 ---
 
@@ -31,7 +31,7 @@ Aquarium Days is a modern take on classic aquarium-management games. Feed and ra
 
 ### Download and play
 
-1. Download [Aquarium-Days-Windows64-20261001-uiux2.zip](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261001-uiux2.zip).
+1. Download [Aquarium-Days-Windows64-20261002-performance.zip](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-performance.zip).
 2. Extract the entire ZIP into a **new folder**. Do not run the game inside the ZIP or overwrite an older installation.
 3. Open the extracted folder and launch `Aquarium Days.exe`. Keep the executable, `Aquarium Days_Data`, and all other extracted files together.
 4. For your first playthrough, select an empty save slot and start a new game.
@@ -44,6 +44,8 @@ For a first playthrough, start in an empty slot. New-save restart recovery and a
 
 ### Controls
 
+Keyboard and mouse only; controller input is disabled in this version.
+
 - **Left mouse button:** interact, collect coin bubbles, select, place, and confirm.
 - **1–6 / Numpad 1–6:** select a quick-bar slot.
 - **Right mouse button or Esc:** cancel the current tool; Esc also goes back through panels or opens the menu when the tank is unobstructed.
@@ -51,13 +53,13 @@ For a first playthrough, start in an empty slot. New-save restart recovery and a
 
 ### Known limitations and feedback
 
-This playtest includes the revised task, shop, collection, companion, summon, expedition and menu UI. Fish purchases go directly into the tank, while scenery purchases enter placement. Collector-shrimp movement has been fixed; the hermit crab can walk along the sand without new walk animation. Art, animation and balance remain in development. Windows x64 build, isolated Player startup and save/load checks passed, together with targeted natural gameplay checks. This does not cover every PC configuration or gameplay route.
+This playtest includes the revised task, shop, collection, companion, summon, expedition and menu UI. Fish purchases go directly into the tank, while scenery purchases enter placement. Collector-shrimp movement has been fixed; the hermit crab can walk along the sand without new walk animation. Art, animation and balance remain in development. Validation: the Windows x64 release build and isolated startup/extraction checks passed. A separate QA Player from the same production source passed automated Wiki/directional-navigation, roughly four minutes of gameplay, and save/restart recovery checks. These are background checks, not a new full-chapter human playthrough or physical keyboard/mouse acceptance.
 
-Known issues: intermittent stutter remains unresolved, and routine notices can refresh densely during clustered feeding. One window-close exit produced a native shutdown exception; saved progress loaded correctly afterward, and the in-game Quit route passed. Save manually, then use the in-game menu to quit.
+This update reduces repeated gameplay calculations, UI rebuilding and camera searches. Controller mappings have been removed to prevent unwanted navigation; keyboard and mouse only. Performance improvements do not guarantee that every intermittent stutter is eliminated. Routine notices can still refresh densely during clustered feeding. A previous window-close exit produced a native shutdown exception; this is not confirmed fixed. Save manually, then use the in-game menu to quit.
 
-Please include the version date, a screenshot, what you wanted to do, and what actually happened in [feedback or bug reports](https://github.com/Er2u/Aquarium-Days/issues). For stutters, include your tank and companion setup.
+Please include the version date, a screenshot, what you wanted to do, and what actually happened in [feedback or bug reports](https://github.com/Er2u/Aquarium-Days/issues). For stutters, include your tank and companion setup. Full-chapter feedback on tutorial clarity, ease of use, and when the game becomes fun or repetitive is especially helpful.
 
-The new ZIP is attached to the existing `v0.1.0-demo` release page. That retained tag identifies the release page, not this build's source revision. Older ZIPs remain available; use the dated October 1 ZIP above for current testing.
+The new ZIP is attached to the existing `v0.1.0-demo` release page. That retained tag identifies the release page, not this build's source revision. Older ZIPs remain available; use the dated October 2 ZIP above for current testing.
 
 ---
 
@@ -78,7 +80,7 @@ The new ZIP is attached to the existing `v0.1.0-demo` release page. That retaine
 
 ### 下载与运行
 
-1. 下载 [Aquarium-Days-Windows64-20261001-uiux2.zip](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261001-uiux2.zip)。
+1. 下载 [Aquarium-Days-Windows64-20261002-performance.zip](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-performance.zip)。
 2. 将 ZIP 完整解压到一个**新文件夹**，不要在压缩包内运行，也不要覆盖旧版游戏文件夹。
 3. 进入解压后的文件夹，双击 `Aquarium Days.exe`。请保持 exe、`Aquarium Days_Data` 和其他运行文件的相对位置。
 4. 首次试玩请选择空存档槽，新建游戏。
@@ -91,6 +93,8 @@ The new ZIP is attached to the existing `v0.1.0-demo` release page. That retaine
 
 ### 操作方式
 
+当前只支持键盘鼠标，已关闭手柄输入。
+
 - **鼠标左键：** 交互、收集金币泡泡、选择、放置和确认。
 - **数字键 1–6 / 小键盘 1–6：** 选择快捷栏槽位。
 - **鼠标右键或 Esc：** 取消当前工具；Esc 也可逐层返回界面，在鱼缸主界面打开菜单。
@@ -98,27 +102,27 @@ The new ZIP is attached to the existing `v0.1.0-demo` release page. That retaine
 
 ### 已知问题与反馈
 
-本次包含新版任务、商店、收藏、伙伴、召唤、探险及菜单 UI；买鱼默认直接入缸，造景进入摆放。寻金虾寻路已修复，寄居蟹可以贴沙地走动，暂未新增行走动画。美术、动画和平衡仍在迭代。此包已通过 Windows 64 位构建、隔离 Player 启动与存读检查，并完成相关自然试玩；未覆盖所有电脑配置和全部玩法路线。
+本次包含新版任务、商店、收藏、伙伴、召唤、探险及菜单 UI；买鱼默认直接入缸，造景进入摆放。寻金虾寻路已修复，寄居蟹可以贴沙地走动，暂未新增行走动画。美术、动画和平衡仍在迭代。验证：正式 Windows64 构建通过（0 错误、18 条警告），发行包隔离启动和解压启动通过；同一生产源码的独立 QA Player 完成 Wiki/合成方向导航、约四分钟正常经营、保存后独立重启读取检查。存档身份、金币、鱼和主要任务状态恢复一致。以上为后台自动检查，不等同于整章人工试玩或物理键鼠验收。
 
-已知问题：间歇性卡顿尚未修复，集中进食时常规提示可能密集刷新。测试中有一次点击窗口关闭按钮后出现退出阶段原生异常，保存后重启读取正常，游戏内“退出游戏”复测正常；建议先手动保存，再从游戏内菜单退出。
+本次减少了经营逻辑的重复计算、界面重建与镜头查找，并移除了干扰 UI 导航的手柄映射，当前仅支持键盘鼠标。性能改善不代表所有偶发卡顿均已消失；集中进食时常规提示仍可能密集刷新。此前测试有一次点击系统窗口 X 后出现原生退出异常，本次未确认修复；建议先手动保存，再从游戏内菜单退出。
 
-欢迎[提交问题或建议](https://github.com/Er2u/Aquarium-Days/issues)。请附上版本日期、截图、当时想做的事和实际遇到的问题；卡顿反馈请补充鱼缸与伙伴配置。
+欢迎[提交问题或建议](https://github.com/Er2u/Aquarium-Days/issues)。请附上版本日期、截图、当时想做的事和实际遇到的问题；卡顿反馈请补充鱼缸与伙伴配置。也欢迎完整试玩第一章，反馈是否清楚下一步、操作是否顺手，以及哪里有趣或开始无聊。
 
-新版沿用 `v0.1.0-demo` 发布页，该历史标签不代表本次源码版本。旧 ZIP 保留，当前试玩请选择上方带 `20261001-uiux2` 的新包。
+新版沿用 `v0.1.0-demo` 发布页，该历史标签不代表本次源码版本。旧 ZIP 保留，当前试玩请选择上方带 `20261002-performance` 的新包。
 
 ---
 
 ## File integrity / 文件校验
 
-File / 文件：`Aquarium-Days-Windows64-20261001-uiux2.zip`
+File / 文件：`Aquarium-Days-Windows64-20261002-performance.zip`
 
-Size / 大小：74,983,510 bytes（约 75.0 MB）
+Size / 大小：74,989,675 bytes（约 75.0 MB）
 
 ```text
-SHA-256: C21F672E35CE9F07F9F22161F5DB6620A08C87C6CA6896170DE3ECEBCEEDE728
+SHA-256: A3D0E21972999DE58E99DA90174A975E8F0F0C50C5CE413EDCAB628F300ED578
 ```
 
-[Download checksum file / 下载校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261001-uiux2.zip.sha256)
+[Download checksum file / 下载校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-performance.zip.sha256)
 
 ## License / 许可证
 
