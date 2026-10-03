@@ -6,11 +6,19 @@
 
 [**Download the latest Windows playtest / 下载最新 Windows 试玩版（77.6 MB）**](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip)
 
-Current playtest: **2026-10-02 · Chapter 1 · Audio update · Windows x64 · Simplified Chinese**
+[**Download the Mac playtest / 下载 Mac 试玩版（Apple Silicon，64.6 MiB）**](https://github.com/Er2u/Aquarium-Days/releases/download/mac-playtest-20261002/Aquarium-Days-macOS-ARM64-20261002-experimental.zip)
 
-当前试玩：**2026-10-02 · 第一章 · 音频更新 · Windows 64 位 · 简体中文**
+Mac playtest tested on M2 and now open to players. Requires Apple Silicon and macOS 12+.
 
-[Release page / 发布页与历史版本](https://github.com/Er2u/Aquarium-Days/releases/tag/v0.1.0-demo) · [SHA-256 checksum / 校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip.sha256)
+**Mac 版已通过 M2 实机测试，现已开放试玩。适用于 M 系列芯片及 macOS 12.0 以上；不适用于 Intel Mac。**
+
+Current playtests: **2026-10-02 builds · Chapter 1 · Windows x64 / macOS Apple Silicon · Simplified Chinese**
+
+当前试玩：**2026-10-02 构建 · 第一章 · Windows 64 位 / macOS Apple Silicon · 简体中文**
+
+[Windows release / Windows 发布页与历史版本](https://github.com/Er2u/Aquarium-Days/releases/tag/v0.1.0-demo) · [SHA-256 checksum / 校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip.sha256)
+
+[Mac release and launch instructions / Mac 发布页与启动说明](https://github.com/Er2u/Aquarium-Days/releases/tag/mac-playtest-20261002) · [Mac SHA-256 / Mac 校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/mac-playtest-20261002/Aquarium-Days-macOS-ARM64-20261002-experimental.zip.sha256)
 
 ---
 
@@ -35,12 +43,22 @@ Background music, core gameplay/UI sounds, expedition-return notifications and p
 
 ### Download and play
 
+#### Windows x64
+
 1. Download [Aquarium-Days-Windows64-20261002-audio.zip](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip).
 2. Extract the entire ZIP into a **new folder**. Do not run the game inside the ZIP or overwrite an older installation.
 3. Open the extracted folder and launch `Aquarium Days.exe`. Keep the executable, `Aquarium Days_Data`, and all other extracted files together.
 4. For your first playthrough, select an empty save slot and start a new game.
 
 No installation or special launch arguments are required.
+
+#### macOS · Apple Silicon
+
+1. Download the [Mac playtest ZIP](https://github.com/Er2u/Aquarium-Days/releases/download/mac-playtest-20261002/Aquarium-Days-macOS-ARM64-20261002-experimental.zip) and extract everything into a new writable folder.
+2. Run `Launch_Playtest.command`. No Unity or Rosetta installation is needed.
+3. Use this launcher every time. Saves, audio settings and logs stay in the adjacent `PlaytestData` folder. For your first playthrough, start in an empty save slot.
+
+Tested on an M2 Mac, with no issues reported (October 3, 2026). Requires macOS 12 or later and an M-series Mac; this package does not support Intel Macs. The app is not Developer ID signed or notarized; see the [Mac release page](https://github.com/Er2u/Aquarium-Days/releases/tag/mac-playtest-20261002) for first-launch guidance and the updated test status.
 
 ### Saves and compatibility
 
@@ -63,7 +81,7 @@ This update reduces repeated gameplay calculations, UI rebuilding and camera sea
 
 Please include the version date, a screenshot, what you wanted to do, and what actually happened in [feedback or bug reports](https://github.com/Er2u/Aquarium-Days/issues). For stutters, include your tank and companion setup. Full-chapter feedback on tutorial clarity, ease of use, and when the game becomes fun or repetitive is especially helpful.
 
-The new ZIP is attached to the existing `v0.1.0-demo` release page. That retained tag identifies the release page, not this build's source revision. Older ZIPs remain available; use the dated October 2 ZIP above for current testing.
+The Windows ZIP is attached to the existing `v0.1.0-demo` release page; the Mac ZIP has its own release linked above. The retained Windows tag identifies the release page, not the build's source revision. Older ZIPs remain available; choose the current download for your platform above.
 
 ---
 
@@ -88,12 +106,22 @@ The new ZIP is attached to the existing `v0.1.0-demo` release page. That retaine
 
 ### 下载与运行
 
+#### Windows 64 位
+
 1. 下载 [Aquarium-Days-Windows64-20261002-audio.zip](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip)。
 2. 将 ZIP 完整解压到一个**新文件夹**，不要在压缩包内运行，也不要覆盖旧版游戏文件夹。
 3. 进入解压后的文件夹，双击 `Aquarium Days.exe`。请保持 exe、`Aquarium Days_Data` 和其他运行文件的相对位置。
 4. 首次试玩请选择空存档槽，新建游戏。
 
 无需安装或添加启动参数。
+
+#### macOS · Apple Silicon
+
+1. 下载 [Mac 试玩 ZIP](https://github.com/Er2u/Aquarium-Days/releases/download/mac-playtest-20261002/Aquarium-Days-macOS-ARM64-20261002-experimental.zip)，完整解压到一个可写的新文件夹。
+2. 双击 `Launch_Playtest.command`，无需安装 Unity 或 Rosetta。
+3. 每次都用此脚本启动，存档、音量设置和日志保存在包旁的 `PlaytestData` 文件夹。首次试玩请选择空存档槽。
+
+2026-10-03 已在 M2 Mac 上完成实机测试，反馈正常。需要 M 系列芯片和 macOS 12.0 或更新版本，此包不适用于 Intel Mac。应用尚未做 Developer ID 签名或公证；首次启动提示与最新测试状态请看 [Mac 发布页](https://github.com/Er2u/Aquarium-Days/releases/tag/mac-playtest-20261002)。
 
 ### 存档兼容
 
@@ -116,11 +144,13 @@ The new ZIP is attached to the existing `v0.1.0-demo` release page. That retaine
 
 欢迎[提交问题或建议](https://github.com/Er2u/Aquarium-Days/issues)。请附上版本日期、截图、当时想做的事和实际遇到的问题；卡顿反馈请补充鱼缸与伙伴配置。也欢迎完整试玩第一章，反馈是否清楚下一步、操作是否顺手，以及哪里有趣或开始无聊。
 
-新版沿用 `v0.1.0-demo` 发布页，该历史标签不代表本次源码版本。旧 ZIP 保留，当前试玩请选择上方带 `20261002-audio` 的新包。
+Windows 新版沿用 `v0.1.0-demo` 发布页，该历史标签不代表本次源码版本；Mac 使用上方独立发布页。旧 ZIP 保留，请按平台选择主页顶部的当前试玩包。
 
 ---
 
 ## File integrity / 文件校验
+
+### Windows
 
 File / 文件：`Aquarium-Days-Windows64-20261002-audio.zip`
 
@@ -132,9 +162,22 @@ SHA-256: 45F60DE1FCAF8A7BD821B019DB37F420E282F2A9CA3AC1CF4F4ABA0FC44372C0
 
 [Download checksum file / 下载校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip.sha256)
 
+### macOS · Apple Silicon
+
+File / 文件：`Aquarium-Days-macOS-ARM64-20261002-experimental.zip`
+
+Size / 大小：67,696,940 bytes（约 64.6 MiB）
+
+```text
+SHA-256: c333d545df07164e5dfb48f2e65aab42e774a0cafc6e441880f800bd79f9d9e9
+```
+
+[Download Mac checksum / 下载 Mac 校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/mac-playtest-20261002/Aquarium-Days-macOS-ARM64-20261002-experimental.zip.sha256)
+
 ## License / 许可证
 
 Repository-authored content is available under the [MIT License](LICENSE) unless otherwise noted. Packaged Unity runtime and third-party components remain subject to their respective licenses.
 
 除另有说明外，仓库作者创作的内容按 [MIT License](LICENSE) 提供。打包内的 Unity Runtime 与第三方组件仍受其各自许可证约束。
+
 
