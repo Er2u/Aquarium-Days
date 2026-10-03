@@ -4,7 +4,7 @@
 >
 > 一款治愈系 2D 水族箱经营游戏：照顾鱼群、平衡小型生态，并搭配魔法伙伴构筑自己的鱼缸。
 
-[**Download the latest Windows playtest / 下载最新 Windows 试玩版（77.6 MB）**](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip)
+[**Download the latest Windows playtest / 下载最新 Windows 试玩版（反馈修复版，77.6 MB）**](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261003-feedback.zip)
 
 [**Download the Mac playtest / 下载 Mac 试玩版（Apple Silicon，64.6 MiB）**](https://github.com/Er2u/Aquarium-Days/releases/download/mac-playtest-20261002/Aquarium-Days-macOS-ARM64-20261002-experimental.zip)
 
@@ -12,11 +12,11 @@ Mac playtest tested on M2 and now open to players. Requires Apple Silicon and ma
 
 **Mac 版已通过 M2 实机测试，现已开放试玩。适用于 M 系列芯片及 macOS 12.0 以上；不适用于 Intel Mac。**
 
-Current playtests: **2026-10-02 builds · Chapter 1 · Windows x64 / macOS Apple Silicon · Simplified Chinese**
+Current playtests: **Windows 2026-10-03 / Mac 2026-10-02 · Matching stable content · Chapter 1 · Simplified Chinese**
 
-当前试玩：**2026-10-02 构建 · 第一章 · Windows 64 位 / macOS Apple Silicon · 简体中文**
+当前试玩：**Windows 2026-10-03 / Mac 2026-10-02 · 稳定内容已对齐 · 第一章 · 简体中文**
 
-[Windows release / Windows 发布页与历史版本](https://github.com/Er2u/Aquarium-Days/releases/tag/v0.1.0-demo) · [SHA-256 checksum / 校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip.sha256)
+[Windows release / Windows 发布页与历史版本](https://github.com/Er2u/Aquarium-Days/releases/tag/v0.1.0-demo) · [SHA-256 checksum / 校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261003-feedback.zip.sha256)
 
 [Mac release and launch instructions / Mac 发布页与启动说明](https://github.com/Er2u/Aquarium-Days/releases/tag/mac-playtest-20261002) · [Mac SHA-256 / Mac 校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/mac-playtest-20261002/Aquarium-Days-macOS-ARM64-20261002-experimental.zip.sha256)
 
@@ -27,6 +27,10 @@ Current playtests: **2026-10-02 builds · Chapter 1 · Windows x64 / macOS Apple
 ### About the game
 
 Aquarium Days is a modern take on classic aquarium-management games. Feed and raise fish, collect coin bubbles, balance oxygen and water quality, and choose plants and aquatic creatures that help maintain the tank. Magical companions and support abilities add different ways to shape your aquarium.
+
+### Feedback fixes and platform alignment
+
+The October 3 Windows package now includes the same eight player-feedback fixes as the October 2 Mac package: summon layout, oxygen advice, capacity navigation, fish details, automatic-collection notices, fish state colours, selection outlines and the initial breeding target. Music and previous UI/performance improvements are retained. The new tutorial, eight-tier coin visuals, quick-bar restoration and air/water presentation are still in development and are not part of either stable download.
 
 ### Audio update
 
@@ -45,7 +49,7 @@ Background music, core gameplay/UI sounds, expedition-return notifications and p
 
 #### Windows x64
 
-1. Download [Aquarium-Days-Windows64-20261002-audio.zip](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip).
+1. Download [Aquarium-Days-Windows64-20261003-feedback.zip](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261003-feedback.zip).
 2. Extract the entire ZIP into a **new folder**. Do not run the game inside the ZIP or overwrite an older installation.
 3. Open the extracted folder and launch `Aquarium Days.exe`. Keep the executable, `Aquarium Days_Data`, and all other extracted files together.
 4. For your first playthrough, select an empty save slot and start a new game.
@@ -91,6 +95,10 @@ The Windows ZIP is attached to the existing `v0.1.0-demo` release page; the Mac 
 
 《Aquarium Days》是一款现代水族箱经营游戏。喂养鱼群、收集金币泡泡、维持氧气与水质，并选择植物和水中生物帮助鱼缸运转。魔法本体与支援能力提供不同的搭配方式，让玩家经营自己的小型生态。
 
+### 反馈修复与平台对齐
+
+10 月 3 日的 Windows 包现已补齐 Mac 包已有的八项反馈小修：召唤布局、缺氧建议、扩容入口、鱼详情、自动收币提示、状态色、选中轮廓与首次一星繁殖目标。两平台稳定内容已对齐，音乐和此前 UI／性能修复保留。正在开发的新教程、八档金币、快捷栏与水面空气补齐尚未包含在这两个稳定包中。
+
 ### 音频更新
 
 现已加入背景音乐、主要玩法/UI 音效、探险归来提示，以及重启保留的音量设置。通过菜单 → 设置 → 音频调节。持续环境循环已关闭，环境滑块保留。两个独立 Windows 进程的音频渲染和音量恢复已验证；下文 UI/性能验证是沿用此前证据，不代表重新完成整章试玩。
@@ -108,7 +116,7 @@ The Windows ZIP is attached to the existing `v0.1.0-demo` release page; the Mac 
 
 #### Windows 64 位
 
-1. 下载 [Aquarium-Days-Windows64-20261002-audio.zip](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip)。
+1. 下载 [Aquarium-Days-Windows64-20261003-feedback.zip](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261003-feedback.zip)。
 2. 将 ZIP 完整解压到一个**新文件夹**，不要在压缩包内运行，也不要覆盖旧版游戏文件夹。
 3. 进入解压后的文件夹，双击 `Aquarium Days.exe`。请保持 exe、`Aquarium Days_Data` 和其他运行文件的相对位置。
 4. 首次试玩请选择空存档槽，新建游戏。
@@ -152,15 +160,15 @@ Windows 新版沿用 `v0.1.0-demo` 发布页，该历史标签不代表本次源
 
 ### Windows
 
-File / 文件：`Aquarium-Days-Windows64-20261002-audio.zip`
+File / 文件：`Aquarium-Days-Windows64-20261003-feedback.zip`
 
-Size / 大小：77,622,251 bytes（约 77.6 MB）
+Size / 大小：77,624,984 bytes（约 77.6 MB）
 
 ```text
-SHA-256: 45F60DE1FCAF8A7BD821B019DB37F420E282F2A9CA3AC1CF4F4ABA0FC44372C0
+SHA-256: e318bb33ec905857bdc2b5079776623e1901d03b882ce5f14dc6f02e8c389daf
 ```
 
-[Download checksum file / 下载校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261002-audio.zip.sha256)
+[Download checksum file / 下载校验文件](https://github.com/Er2u/Aquarium-Days/releases/download/v0.1.0-demo/Aquarium-Days-Windows64-20261003-feedback.zip.sha256)
 
 ### macOS · Apple Silicon
 
@@ -179,5 +187,6 @@ SHA-256: c333d545df07164e5dfb48f2e65aab42e774a0cafc6e441880f800bd79f9d9e9
 Repository-authored content is available under the [MIT License](LICENSE) unless otherwise noted. Packaged Unity runtime and third-party components remain subject to their respective licenses.
 
 除另有说明外，仓库作者创作的内容按 [MIT License](LICENSE) 提供。打包内的 Unity Runtime 与第三方组件仍受其各自许可证约束。
+
 
 
